@@ -1,0 +1,51 @@
+header {
+  background: url("../images/Rectangle.png") no-repeat right top;
+  nav {
+    ul {
+      gap: 40px;
+      padding: 0 40px;
+      li {
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+    .nav-actions {
+      span {
+        font-size: 24px;
+        color: white;
+        small {
+          color: white;
+          font-size: 12px;
+        }
+      }
+      &-phone {
+        padding: 0 40px;
+        border-right: 1px solid rgba($color: #fff, $alpha: 0.4);
+      }
+      &-cart {
+        padding: 0 40px;
+        gap: 15px;
+        .cart-box {
+          position: relative;
+          img {
+          }
+          span {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            color: white;
+            text-align: center;
+            line-height: 20px;
+            display: block;
+            font-size: 10px;
+            background-color: $yellow;
+            position: absolute;
+            top: -8px;
+            right: -10px;
+          }
+        }
+      }
+    }
+  }
+}
